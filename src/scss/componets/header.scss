@@ -23,8 +23,8 @@
     li { 
         display: inline;
         margin-right: 52px;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: 700;
         color: #ffffff;
     }
     &__text {
@@ -39,8 +39,8 @@
     }
     &__subtitle  {
         padding-top: 18px;
-        font-size: 83px;
-        font-weight: 900;
+        font-size: 80px;
+        font-weight: 800;
         color: #ffffff;
         &:before { 
             content: "";
@@ -53,19 +53,5 @@
   
 
 
-    // span { 
-    //         // width: 72px;
-    //         height: 20px;
-          
-    //         // position: sticky;
-    //         background-color: #FFC178 solid;
-    //         content: "";
-    //         position: absolute;
-    //         top: 50%;
-    //         width: 9999px;
-    //         // height: 5px; /* space between lines */
-    //         margin-top: -2px; /* adjust vertical align */
-    //         border-top: 1px solid red;
-    //         // border-bottom: 1px solid red;
-    // }
+  
 }
