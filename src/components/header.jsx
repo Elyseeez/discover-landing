@@ -1,16 +1,21 @@
 import React from 'react';
-// import Background from '../assets/background/background.jpg';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header () { 
     return (
         <div  className="header">
             <div className="container">
                 <div className="header__top">
-                    <ul>
-                        <li>Information</li>
-                        <li>About us</li>
-                        <li>Culture</li>
+        
+            <ul>
+                        <li><Link to="/#info-page">Information</Link></li>
+                        
+            
+           
+                        <li><Link to="/#about-page">About us</Link></li>
+                        <li><Link to="/#culture-page">Culture</Link></li>
                     </ul>
+                  
                 </div>
             <div className="header__text">
                 <div className="header__title"><span></span>explore the Nature Beauty</div>

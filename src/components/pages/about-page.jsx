@@ -4,7 +4,7 @@ import Carousel from './carousel';
 
 function About () { 
     return (
-        <div className="about">
+        <div className="about" id="about-page">
             <div className="about__container">
                 <div className="about__carousel">
                 <Carousel/>

@@ -3,7 +3,7 @@ import Mainimg from '../../assets/imageone.jpg';
 
 function Info () { 
     return (       
-        <div className="info">   
+        <div className="info" id="info-page">   
         <div className="info__content">
             <div className="info__image"> <img src={Mainimg} alt="Firstimg" /></div>
 
@@ -14,7 +14,7 @@ function Info () {
                     So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, 
                     you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet 
                     many travelers from other countries.</p>
-                <divc className="info__read"></divc>
+                <div className="info__read"></div>
             </div>
 
         </div>    
